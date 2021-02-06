@@ -1,0 +1,208 @@
+.experience-wrapper  {
+    width: 1293px;
+    margin: 0 auto;
+    padding: 100px 0 100px;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+
+    img {
+        width: 37%;
+    }
+}
+.experience-blocks--slider {
+    width: 100%;
+
+    .slick-next {
+        right: 25px;
+        top: 25px;
+        &:focus:before {
+            opacity: .75 !important;
+        }
+        &:hover:before {
+            opacity: 1 !important;
+        }
+    }
+    .slick-prev {
+        left: auto;
+        top: 25px;
+        right: 60px;
+        z-index: 9;
+        &:focus:before {
+            opacity: .75 !important;
+        }
+        &:hover:before {
+            opacity: 1 !important;
+        }
+    }
+    .slick-dots {
+        display: none !important;
+    }
+}
+.experience-block {
+
+    p {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+        color: #262424;
+        padding-bottom: 20px;
+        text-align: justify;
+
+        &:last-child {
+            padding-bottom: 0;
+        }
+    }
+}
+.experience-block--conteiner {
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+
+    img {
+        margin-right: 50px;
+    }
+}
+.experience-title {
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color: #262424;
+    margin-bottom: 40px;
+
+    b {
+        font-weight: normal;
+        color: #76324D;
+    }
+}
+.experience-content {
+    padding-right: 10px;
+}
+@media (max-width: 1366px) {
+    .experience-wrapper {
+        width: auto;
+    }
+    .experience-blocks--slider {
+        padding-right: 80px;
+    }
+    .experience-blocks--slider .slick-prev {
+        right: 125px;
+    }
+    .experience-blocks--slider .slick-next {
+        right: 90px;
+    }
+}
+@media (max-width: 1200px) {
+    .experience-blocks--slider {
+        padding-right: 30px;
+    }
+    .experience-block--conteiner img {
+        margin-right: 30px;
+    }
+    .experience-blocks--slider .slick-next {
+        right: 45px;
+    }
+    .experience-blocks--slider .slick-prev {
+        right: 80px;
+    }
+}
+@media (max-width: 1024px) {
+    .experience-wrapper img {
+        width: 43%;
+    }
+}
+@media (max-width: 991px) {
+    .experience-wrapper img {
+        width: 45%;
+    }
+}
+@media (max-width: 900px) {
+    .experience-wrapper img {
+        width: 46%;
+        height: 550px;
+    }
+    .experience-title {
+        font-size: 26px;
+        line-height: 34px;
+        margin-bottom: 30px;
+    }
+    .experience-block {
+
+        p{
+            font-size: 14px;
+        }
+    }
+}
+@media (max-width: 750px) {
+    .experience-wrapper img {
+        display: none;
+    }
+    .experience-blocks--slider {
+        width: 92%;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+@media (max-width: 700px) {
+    .experience-blocks--slider {
+        width: 92%;
+        margin: 0 auto;
+        padding: 0;
+
+        .slick-dots li.slick-active button:before {
+            color: #98657a;
+            opacity: 1;
+            font-size: 8px;
+            line-height: 22px;
+        }
+        .slick-dots li {
+            margin: 0;
+        }
+        .slick-dots {
+            bottom: -45px;
+            display: block !important;
+        }
+    }
+    .experience-title {
+        text-align: center;
+    }
+    .experience-blocks--slider .slick-prev {
+        top: 15px;
+        right: auto;
+        left: 0px;
+    }
+    .experience-blocks--slider .slick-next {
+        top: 15px;
+        right: 10px;
+    }
+}
+@media (max-width: 550px) {
+    .experience-wrapper {
+        padding: 40px 0 50px;
+    }
+}
+@media (max-width: 450px) {
+    .experience-title {
+        font-size: 24px;
+    }
+} 
+@media (max-width: 375px) {
+    // .experience-wrapper {
+    //     padding: 50px 0 49px;
+    // }
+    .experience-blocks--slider .slick-prev, .experience-blocks--slider .slick-next {
+        top: 10px;
+    }
+    .experience-blocks--slider .slick-next {
+        right: 5px;
+    }
+    .experience-blocks--slider .slick-prev {
+        left: -5px;
+    }
+}

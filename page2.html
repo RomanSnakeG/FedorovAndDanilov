@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fedorov, Danilov & partners</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick-theme.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header-wrapper">
+        <div class="header-mobail--phone">
+            <img class="header-mobail--phone__btn" src="img/phone-line.svg" alt="phone">
+            <div class="header-mobail--phone__block">
+                <a href="tel:+7 (495) 215-57-24">+7 (495) 215-57-24</a>
+            </div>
+        </div>
+        <a class="header-logo" href="#"><img src="img/logo.svg" alt="logo"></a>
+        <div class="header-menu">
+            <ul class="header-list">
+                <li class="header-item"><a href="#">Об услуге</a></li>
+                <li class="header-item"><a href="#">о нас</a></li>
+                <li class="header-item"><a href="#">юристы</a></li>
+                <li class="header-item"><a href="#">наши клиенты</a></li>
+                <li class="header-item"><a href="#">Ответы на вопросы</a></li>
+                <li class="header-item"><a href="#">контакты</a></li>
+            </ul>
+        </div>
+        <a class="header-phone" href="tel:+7 (495) 215-57-24">+7 (495) 215-57-24</a>
+        <button class="btn-burger" aria-label="открыть меню">
+            <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="50">
+                <path class="line top"
+                    d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40">
+                </path>
+                <path class="line middle" d="m 30,50 h 40"></path>
+                <path class="line bottom"
+                    d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40">
+                </path>
+            </svg>
+        </button>
+        <div class="catalog">
+            <button type="button" class="btn-close catalog-btn" id="hnf-menu-close-btn" aria-expanded="true"
+                title="Закрыть меню" aria-label="Закрыть меню">
+                <svg class="ham hamRotate ham1 ham2 active" viewBox="0 0 100 100" width="50">
+                    <path class="line2 top"
+                        d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40">
+                    </path>
+                    <path class="line2 middle" d="m 30,50 h 40"></path>
+                    <path class="line2 bottom"
+                        d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40">
+                    </path>
+                </svg>
+            </button>
+            <ul class="catalog-list">
+                <img class="catalog-list--logo" src="img/logo-center.svg" alt="logo">
+                <li class="catalog-list__item"><a href="#">Об услуге</a></li>
+                <li class="catalog-list__item"><a href="#">о нас</a></li>
+                <li class="catalog-list__item"><a href="#">юристы</a></li>
+                <li class="catalog-list__item"><a href="#">наши клиенты</a></li>
+                <li class="catalog-list__item"><a href="#">Ответы на вопросы</a></li>
+                <li class="catalog-list__item"><a href="#">контакты</a></li>
+            </ul>
+            <div class="call-block">
+                <a class="mail-mob--menu" href="#">info@fpilegal.com</a>
+                <a class="phone-mob--menu" href="tel:+7 (495) 215-57-24">+7 (495) 215-57-24</a>
+                <p></p>
+                <a class="call-popup--block" data-fancybox data-src="#hidden-content" href="javascript:;">Связаться</a>
+            </div>
+
+        </div>
+        <div class="overlay"></div>
+    </header>
+    <section class="headers-banner--wrapper">
+        <div class="headers-banner--conteiner">
+            <div class="headers-banner--block__content">
+                <div class="headers-banner--block__content-wrap">
+                    <h1 class="headers-banner--title">Взыскание задолженности</h1>
+                    <p>с физических и юридических лиц</p>
+                    <ul class="headers-banner--list">
+                        <li class="headers-banner--item">Более 20 лет успешной судебной практики</li>
+                        <li class="headers-banner--item">Богатый международный опыт</li>
+                        <li class="headers-banner--item">Экспертность в области арбитражного права</li>
+                    </ul>
+                    <a class="headers-banner--btn" data-fancybox data-src="#hidden-content" href="javascript:;">Связаться</a>
+                </div>
+            </div>
+            <div class="header-banner--block__img">
+                <img class="headers-banner--fon" src="img/header-fon--page2.jpg" align="bottom">
+            </div>
+        </div>
+    </section>
+    <section class="conflict-resolution--wrapper conflict-resolution--wrapper__page2">
+        <h2 class="conflict-resolution--title"><b>Варианты</b> урегулирования конфликта</h2>
+        <div class="conflict-resolution--conteiner">
+            <div class="conflict-resolution--content__block">
+                <img class="conflict-resolution--img" src="img/handshake.svg" alt="handshake">
+                <img class="conflict-resolution--img__white" src="img/handshake-white.svg" alt="handshake">
+                <p>В досудебном порядке</p>
+                <a data-fancybox data-src="#hidden-content--resolution1" href="javascript:;">Подробнее</a>
+            </div>
+            <div class="conflict-resolution--content__block">
+                <img class="conflict-resolution--img" src="img/auction.svg" alt="auction">
+                <img class="conflict-resolution--img__white" src="img/auction-white.svg" alt="auction">
+                <p>В судебном порядке</p>
+                <a data-fancybox data-src="#hidden-content--resolution2" href="javascript:;">Подробнее</a>
+            </div>
+            <div class="conflict-resolution--content__block">
+                <img class="conflict-resolution--img" src="img/balance.svg" alt="balance">
+                <img class="conflict-resolution--img__white" src="img/balance-white.svg" alt="balance">
+                <p>Исполнительное производство</p>
+                <a data-fancybox data-src="#hidden-content--resolution3" href="javascript:;">Подробнее</a>
+            </div>
+        </div>
+    </section>
+    <section class="team-wrapper">
+        <div class="team-peaple--blocks">
+            <h2 class="team-title"><b>Наша</b> команда</h2>
+            <div class="team-peaple--slider">
+                <div class="team-peaple--block">
+                    <div class="photo_wrp">
+                        <img src="img/itay-verchik.jpg" alt="" class="bw-photo">
+                    </div>
+                    <h4>Никита Федоров</h4>
+                    <p>Адвокат, управляющий партнер</p>
+                </div>
+                <div class="team-peaple--block">
+                    <div class="photo_wrp">
+                        <img src="img/itay-verchik.jpg" alt="">
+                    </div>
+                    <h4>Никита Федоров</h4>
+                    <p>Адвокат, управляющий партнер</p>
+                </div>
+                <div class="team-peaple--block">
+                    <div class="photo_wrp">
+                        <img src="img/muhmed-el.jpg" alt="" class="bw-photo">
+                    </div>
+                    <h4>Сергей Данилов</h4>
+                    <p>Партнер, Доктор права</p>
+                </div>
+                <div class="team-peaple--block">
+                    <div class="photo_wrp">
+                        <img src="img/linkedin-sales.jpg" alt="">
+                    </div>
+                    <h4>Иван Трифонов</h4>
+                    <p>Руководитель группы</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="team-description--wrapper">
+        <div class="taem-icons--blocks__advantages">
+            <h2 class="team-title"><b>Наши</b> преимущества</h2>
+            <div class="taem-icons--slick">
+                <div class="taem-icon--block">
+                    <div class="team-icon">
+                        <i class="fas fa-poo" style="color:#76324D;"></i>
+                    </div>
+                    <p>Над вашим делом будет работать команда юристов с экспертизой в области арбитражного права и защиты</p>
+                </div>
+                <div class="taem-icon--block">
+                    <div class="team-icon">
+                        <i class="fas fa-poo" style="color:#76324D;"></i>
+                    </div>
+                    <p>Наш многолетний практический опыт гарантирует вам верные решенияи эффективные стратеги и ведения дел</p>
+                </div>
+                <div class="taem-icon--block">
+                    <div class="team-icon">
+                        <i class="fas fa-poo" style="color:#76324D;"></i>
+                    </div>
+                    <p>Юристы нашей компании успешно реализовали проекты для крупных российских и зарубежных компаний</p>
+                </div>
+                <div class="taem-icon--block">
+                    <div class="team-icon">
+                        <i class="fas fa-poo" style="color:#76324D;"></i>
+                    </div>
+                    <p>Над вашим делом будет работать команда юристов с экспертизой в области арбитражного права и защиты</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="partners-wrapper partners-wrapper--page2">
+        <h2 class="partners-title"><b>Нам</b> доверяют</h2>
+        <div class="partners-block--slider">
+            <div class="partners-block">
+                <a href="#"><img src="img/amt_group.svg" alt="atm"></a> 
+            </div>
+            <div class="partners-block">
+                <a href="#"><img src="img/kastamonu.svg" alt="kastamonu"></a> 
+            </div>
+            <div class="partners-block">
+                <a href="#"><img src="img/warner_brothers.svg" alt="warner_brothers"></a> 
+            </div>
+            <div class="partners-block">
+                <a href="#"><img src="img/cisco.svg" alt="cisco"></a> 
+            </div>
+            <div class="partners-block">
+                <a href="#"><img src="img/gazprom.svg" alt="gazprom"></a> 
+            </div>
+            <div class="partners-block">
+                <img src="img/amt_group.svg" alt="atm">
+            </div>
+            <div class="partners-block">
+                <img src="img/kastamonu.svg" alt="kastamonu">
+            </div>
+            <div class="partners-block">
+                <img src="img/warner_brothers.svg" alt="warner_brothers">
+            </div>
+            <div class="partners-block">
+                <img src="img/cisco.svg" alt="cisco">
+            </div>
+            <div class="partners-block">
+                <img src="img/gazprom.svg" alt="gazprom">
+            </div>
+        </div>
+    </section>
+    <section class="works-wrapper">
+        <img class="works-fon" src="img/center-fon.jpg" alt="">
+        <div class="works-conteiner">
+            <h2 class="works-title">Выполненные проектные работы</h2>
+            <div class="works-block--slider">
+                <div class="works-block">
+                    <h4>Триллада</h4>
+                    <p>Специалисты Fedorov, Danilov & partners обеспечили полное юридическое сопровождение нашей
+                        компании по взысканию убытков, понесенных ввиду неисполнения арендных обязательств ОА «Тандер
+                        (сеть магазинов «Магнит»). Мы добились взыскания задолженности в сумму более 10 миллионов
+                        рублей, возникшей ввиду...</p>
+                    <a href="#">Подробнее</a>
+                </div>
+                <div class="works-block">
+                    <h4>Торговое предприятие</h4>
+                    <p>Благодарим за успешное представление интересов в спорах о незаконном привлечении
+                        Мосгорстройнадзора к административной ответственности за нарушение Градостроительного Кодекса РФ
+                        и проведение несанкционированной реконструкции. Было проведено оспаривание правомерности
+                        штрафных санкций со стороны...</p>
+                    <a href="#">Подробнее</a>
+                </div>
+                <div class="works-block">
+                    <h4>Клиника здоровья</h4>
+                    <p>Была проведена комплексная юридическая проверка задолженности контрагента (ООО «Ниармедик Плюс»),
+                        анализ на предмет возможности взыскания долга по договорам коммерческой концессии, касающейся
+                        исключительных прав, связанных с оказанием медицинских услуг, включая право на...</p>
+                    <a href="#">Подробнее</a>
+                </div>
+                <div class="works-block">
+                    <h4>Торговое предприятие</h4>
+                    <p>Благодарим за успешное представление интересов в спорах о незаконном привлечении
+                        Мосгорстройнадзора к административной ответственности за нарушение Градостроительного Кодекса РФ
+                        и проведение несанкционированной реконструкции. Было проведено оспаривание правомерности
+                        штрафных санкций со стороны...</p>
+                    <a href="#">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="process-wrapper">
+        <h2 class="process-title"><b>Процесс</b> работы</h2>
+        <div class="process-conteiner">
+            <div class="process-items">
+                <ul class="process-list">
+                    <li><a class="process-item process-item--active" href="#" data-process="1">1. Составление
+                            претензии</a></li>
+                    <li><a class="process-item" href="#" data-process="2">2. Претензионная переписка</a></li>
+                    <li><a class="process-item" href="#" data-process="3">3. Решение суда</a></li>
+                </ul>
+            </div>
+            <div class="process-content--blocks">
+                <div class="process-content--block process-content--block1 process-content--block__active"
+                    data-process="1">
+                    <ul class="process-content--block__list">
+                        <li class="process-content--block__item">Подача искового заявления</li>
+                        <li class="process-content--block__item">Сбор доказательств по делу</li>
+                        <li class="process-content--block__item">Ознакомление с материалами дела и отзыва на исковое
+                            заявление, подготовка возражений</li>
+                        <li class="process-content--block__item">Подготовка к судебным заседаниям и участие в них</li>
+                        <li class="process-content--block__item">Подготовка кратких отчетов доверителю о прошедших
+                            заседаниях</li>
+                    </ul>
+                </div>
+                <div class="process-content--block process-content--block2" data-process="2">
+                    <ul class="process-content--block__list">
+                        <li class="process-content--block__item">Подача искового заявления</li>
+                        <!-- <li class="process-content--block__item">Сбор доказательств по делу</li> -->
+                        <li class="process-content--block__item">Ознакомление с материалами дела и отзыва на исковое
+                            заявление, подготовка возражений</li>
+                        <!-- <li class="process-content--block__item">Подготовка к судебным заседаниям и участие в них</li> -->
+                        <li class="process-content--block__item">Подготовка кратких отчетов доверителю о прошедших
+                            заседаниях</li>
+                    </ul>
+                </div>
+                <div class="process-content--block process-content--block3" data-process="3">
+                    <ul class="process-content--block__list">
+                        <!-- <li class="process-content--block__item">Подача искового заявления</li> -->
+                        <li class="process-content--block__item">Сбор доказательств по делу</li>
+                        <!-- <li class="process-content--block__item">Ознакомление с материалами дела и отзыва на исковое заявление, подготовка возражений</li> -->
+                        <li class="process-content--block__item">Подготовка к судебным заседаниям и участие в них</li>
+                        <!-- <li class="process-content--block__item">Подготовка кратких отчетов доверителю о прошедших заседаниях</li> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="process-content--blocks__slick">
+                <div class="process-content--block process-content--block1 process-content--block__active"
+                    data-process="1">
+                    <span>1</span>
+                    <a class="process-item process-item--active" href="#" data-process="1">Составление претензии</a>
+                    <ul class="process-content--block__list">
+                        <li class="process-content--block__item">Подача искового заявления</li>
+                        <li class="process-content--block__item">Сбор доказательств по делу</li>
+                        <li class="process-content--block__item">Ознакомление с материалами дела и отзыва на исковое
+                            заявление, подготовка возражений</li>
+                        <li class="process-content--block__item">Подготовка к судебным заседаниям и участие в них</li>
+                        <li class="process-content--block__item">Подготовка кратких отчетов доверителю о прошедших
+                            заседаниях</li>
+                    </ul>
+                </div>
+                <div class="process-content--block process-content--block2" data-process="2">
+                    <span>2</span>
+                    <a class="process-item process-item--active" href="#" data-process="2">Претензионная переписка</a>
+                    <ul class="process-content--block__list">
+                        <li class="process-content--block__item">Подача искового заявления</li>
+                        <li class="process-content--block__item">Сбор доказательств по делу</li>
+                        <li class="process-content--block__item">Ознакомление с материалами дела и отзыва на исковое
+                            заявление, подготовка возражений</li>
+                        <li class="process-content--block__item">Подготовка к судебным заседаниям и участие в них</li>
+                        <li class="process-content--block__item">Подготовка кратких отчетов доверителю о прошедших
+                            заседаниях</li>
+                    </ul>
+                </div>
+                <div class="process-content--block process-content--block3" data-process="3">
+                    <span>3</span>
+                    <a class="process-item process-item--active" href="#" data-process="3">Решение суда</a>
+                    <ul class="process-content--block__list">
+                        <li class="process-content--block__item">Подача искового заявления</li>
+                        <li class="process-content--block__item">Сбор доказательств по делу</li>
+                        <li class="process-content--block__item">Ознакомление с материалами дела и отзыва на исковое
+                            заявление, подготовка возражений</li>
+                        <li class="process-content--block__item">Подготовка к судебным заседаниям и участие в них</li>
+                        <li class="process-content--block__item">Подготовка кратких отчетов доверителю о прошедших
+                            заседаниях</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-wrapper">
+        <div class="about-conteiner">
+            <div class="about-content--block">
+                <h3 class="about-content--block__title">Международная юридическая фирма</h3>
+                <p>Юридическая компания Fedorov, Danilov & partners работает более 20 лет.
+                    Наша команда имеет огромный опыт взыскания самых проблемных долгов, используя, наработанные опытом,
+                    стратегии. Мы проведем полную процедуру взыскания - от подачи искадо исполнения решения суда - и
+                    сделаем все возможное, чтобы клиент остался доволен результатом нашегосотрудничества</p>
+            </div>
+            <div class="about-act--block">
+                <img src="img/logo-center.svg" alt="logo">
+                <span>Иной подход к делу</span>
+                <a class="about-act--block__btn" data-fancybox data-src="#hidden-content--more"
+                    href="javascript:;">Подробнее</a>
+            </div>
+        </div>
+    </section>
+    <section class="experience-wrapper">
+        <div class="experience-blocks--slider">
+            <div class="experience-block">
+                <div class="experience-block--conteiner">
+                    <img src="img/experience-img1.jpg" alt="">
+                    <div class="experience-content">
+                        <h2 class="experience-title"><b>Наш</b> опыт</h2>
+                        <p>Юридическая фирма Fedorov, Danilov & partners много лет является участником международного
+                            консорциума юридических фирм FPI Legal. На протяжении двадцати лет мы успешно предоставляем
+                            нашим клиентам полный спектр юридических услуг, в том числе услуги по взысканию
+                            задолженности</p>
+                        <p>В каждом конкретном случае наши опытные юристы осуществляют весь комплекс необходимых
+                            мероприятий в целях защиты интересов наших клиентов и взыскания в полном объеме имеющейся
+                            задолженности.</p>
+                        <p>Действуя в рамках правового поля, специалисты нашей юридической фирмы используют все методы и
+                            ресурсы для скорейшего урегулирования спорной ситуации.</p>
+                        <p>Мы оказываем полный комплекс юридических услуг в рамках взыскания задолженности на стадии
+                            досудебного урегулирования спора, во время разрешения спора в судебном порядке, а также на
+                            стадии исполнительного производства.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="experience-block">
+                <div class="experience-block--conteiner">
+                    <img src="img/experience-img2.png" alt="">
+                    <div class="experience-content">
+                        <h2 class="experience-title"><b>Наши</b> преимущества</h2>
+                        <p>Главная цель нашей работы – как можно скорее обеспечить взыскание задолженности в пользу
+                            нашего клиента. И для достижения этой цели наши грамотные специалисты используют весь свой
+                            опыт, все свои профессиональные навыки и умения.</p>
+                        <p>На каждой стадии взыскания задолженности наши юристы составляют все требуемые правовые и
+                            процессуальные документы в строгом соответствии с нормами действующего законодательства и
+                            правилами судебного делопроизводства, также на каждом этапе взыскания мы тщательно
+                            отслеживаем соблюдение всех сроков выполнения тех или иных мероприятий, подачи документов.
+                        </p>
+                        <p>Наша юридическая фирма придерживается максимально разумной политики в вопросе определения
+                            стоимости услуг по взысканию задолженности. В каждом конкретном деле мы устанавливаем
+                            адекватную и приемлемую стоимость работы в зависимости от множества определенных нюансов и
+                            факторов конкретного правового спора.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="experience-block">
+                <div class="experience-block--conteiner">
+                    <img src="img/experience-img3.png" alt="">
+                    <div class="experience-content">
+                        <h2 class="experience-title"><b>Почему</b> мы</h2>
+                        <p>За годы оказания правовой помощи по взысканию задолженности наша юридическая фирма накопила
+                            значительный опыт успешного оказания услуг в рамках взыскания долгов</p>
+                        <p>Наши юристы и адвокаты являются одними из лучших специалистов в сфере взыскания
+                            задолженности, владеют необходимыми навыками и знаниями. На постоянной основе мы отслеживаем
+                            изменения действующего законодательства, анализируем и аккумулируем судебную практику по
+                            спорам о взыскании задолженности и обладаем самой актуальной информацией.</p>
+                        <p>Мы оперативно оказываем юридические и консультационные услуги.</p>
+                        <p>Наша фирма предоставляет гарантии качества оказываемых услуг каждому клиенту.</p>
+                        <p>На всех этапах оказания юридической помощи мы обеспечиваем прозрачность работы наших
+                            специалистов, детально информируем клиента обо всех предпринимаемых и планируемых действиях.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="distinctive-features--wrapper">
+        <div class="distinctive-features--conteiner">
+            <div class="distinctive-features--content__block-slider">
+                <div class="distinctive-features--block">
+                    <h3>Погужение в процесс</h3>
+                    <p>Посещение офисов и предприятия должников или их место жительства, а такжесбор информации об их
+                        активах для оценки потенциала успеха в случае судебного разбирательства</p>
+                </div>
+                <div class="distinctive-features--block">
+                    <h3>Погужение</h3>
+                    <p>Посещение офисов и предприятия должников или их место жительства, а такжесбор информации об их
+                        активах для оценки потенциала успеха в случае судебного разбирательства</p>
+                </div>
+                <div class="distinctive-features--block">
+                    <h3>Процесс</h3>
+                    <p>Посещение офисов и предприятия должников или их место жительства, а такжесбор информации об их
+                        активах для оценки потенциала успеха в случае судебного разбирательства</p>
+                </div>
+            </div>
+            <h2 class="distinctive-features--title">Отличительные черты <b>компании</b></h2>
+        </div>
+    </section>
+    <section class="feedback-wrapper">
+        <div class="feedback-conteiner">
+            <h2 class="feedback-title">Свяжитесь с нами</h2>
+            <p>Чтобы оценить вашу ситуацию, запишитесь на консультацию к юристам нашей компании</p>
+            <a class="feedback-btn" data-fancybox data-src="#hidden-content" href="javascript:;">Связаться</a>
+        </div>
+    </section>
+    <section class="questions-wrapper">
+        <img class="questions-fon" src="img/bottom-fon.jpg" alt="">
+        <div class="questions-conteiner">
+            <h2 class="questions-title">Ответы на частые вопросы</h2>
+            <div class="questions-slider">
+                <div class="questions-slider--block">
+                    <h3 class="questions-slider--title">По каким причинам может появиться потребность в ваших услугах?
+                    </h3>
+                    <p>Не возвращают долги, инвестиции в России и за рубежом, проблемы с государственными органами
+                        (налоговая, фас, роспотребнадзор), проблемы с топ-менеджерами при увольнении, разногласия с
+                        партнерами по бизнесу и т.д.</p>
+                </div>
+                <div class="questions-slider--block">
+                    <h3 class="questions-slider--title">В какой срок стоит начинать взыскивать долг с клиента?</h3>
+                    <p>Начинать действия по взысканию долга нужно сразу, как только появляются недобросовестные действия
+                        со стороны должника. Чтобы оценить вашу ситуацию, запишитесь на консультацию к юристам нашей
+                        компании.</p>
+                </div>
+                <div class="questions-slider--block">
+                    <h3 class="questions-slider--title">Как оценить, удастся ли вернуть деньги?</h3>
+                    <p>На успешность взыскания долга зависит множество факторов, включая финансовое положение должника,
+                        наличие исков к нему со стороны других компаний. Чтобы определить точно перспективы взыскания
+                        вашего долга, запишитесь на юридическую консультацию к нашим юристам и мы сделаем правовую
+                        оценку ситуации.</p>
+                </div>
+                <div class="questions-slider--block">
+                    <h3 class="questions-slider--title">Сколько стоят ваши услуги по взысканию дебиторской
+                        задолженности?</h3>
+                    <p>Стоимость услуг определяется индивидуально исходя из объема предстоящей работы и сложности
+                        взыскания долга. Чтобы определить точно, запишитесь на юридическую консультацию и мы обсудим
+                        вашу ситуацию</p>
+                </div>
+                <div class="questions-slider--block">
+                    <h3 class="questions-slider--title">Когда нужно обращаться к специалистам по возврату долгов?</h3>
+                    <p>Когда задолженность просрочена на 60-90 дней. Когда должник демонстрирует недобросовестность и не
+                        выполняет свои обещания по оплате долга. Когда выявлены серьезные финансовые проблемы у
+                        должника.</p>
+                </div>
+            </div>
+            <div class="accordeon">
+                <div class="accordeon__item">
+                    <button class="accordeon-title">По каким причинам может появиться потребность в ваших
+                        услугах?</button>
+                    <div class="accordeon-content">
+                        <p>Не возвращают долги, инвестиции в России и за рубежом, проблемы с государственными органами
+                            (налоговая, фас, роспотребнадзор), проблемы с топ-менеджерами при увольнении, разногласия с
+                            партнерами по бизнесу и т.д.</p>
+                    </div>
+                </div>
+                <div class="accordeon__item">
+                    <button class="accordeon-title">В какой срок стоит начинать взыскивать долг с клиента?</button>
+                    <div class="accordeon-content">
+                        <p>Начинать действия по взысканию долга нужно сразу, как только появляются недобросовестные
+                            действия со стороны должника. Чтобы оценить вашу ситуацию, запишитесь на консультацию к
+                            юристам нашей компании.</p>
+                    </div>
+                </div>
+                <div class="accordeon__item">
+                    <button class="accordeon-title">Как оценить, удастся ли вернуть деньги?</button>
+                    <div class="accordeon-content">
+                        <p>На успешность взыскания долга зависит множество факторов, включая финансовое положение
+                            должника, наличие исков к нему со стороны других компаний. Чтобы определить точно
+                            перспективы взыскания вашего долга, запишитесь на юридическую консультацию к нашим юристам и
+                            мы сделаем правовую оценку ситуации.</p>
+                    </div>
+                </div>
+                <div class="accordeon__item">
+                    <button class="accordeon-title">Сколько стоят ваши услуги по взысканию дебиторской
+                        задолженности?</button>
+                    <div class="accordeon-content">
+                        <p>Стоимость услуг определяется индивидуально исходя из объема предстоящей работы и сложности
+                            взыскания долга. Чтобы определить точно, запишитесь на юридическую консультацию и мы обсудим
+                            вашу ситуацию</p>
+                    </div>
+                </div>
+                <div class="accordeon__item">
+                    <button class="accordeon-title">Когда нужно обращаться к специалистам по возврату долгов?</button>
+                    <div class="accordeon-content">
+                        <p>Когда задолженность просрочена на 60-90 дней. Когда должник демонстрирует недобросовестность
+                            и не выполняет свои обещания по оплате долга. Когда выявлены серьезные финансовые проблемы у
+                            должника.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="popup" style="display: none;" id="hidden-content">
+        <div class="popup-conteiner">
+            <div class="popup-block--btn">
+                <button class="popup-phone--btn active-btn">Заказать звонок</button>
+                <button class="popup-phone--btn__icon active-btn"><img class="icon-phone" src="img/phone-line.svg"
+                        alt=""></button>
+                <button class="popup-email--btn">Отправить сообщение</button>
+                <button class="popup-email--btn__icon"><img class="icon-mail" src="img/mail-line.svg" alt=""></button>
+            </div>
+            <div class="popup-phone">
+                <form action="">
+                    <label>
+                        <p class="your-name">Имя</p>
+                        <input type="text" name="your-name" required>
+                    </label>
+                    <label>
+                        <p class="your-phone">Телефон</p>
+                        <input id="phone" type="tel" name="your-phone" placeholder="+7 (XXX) XXX-XX-XX" required>
+                        <p class="your-phone--text">Перезвоним вам в течении 30 минут</p>
+                    </label>
+                    <label>
+                        <input class="input-btn" type="submit" value="Отправить">
+                    </label>
+                </form>
+            </div>
+            <div class="popup-mail">
+                <form action="">
+                    <label>
+                        <p class="your-name">Имя</p>
+                        <input type="text" name="your-name" required>
+                    </label>
+                    <label>
+                        <p class="your-mail">Email</p>
+                        <input id="contactsForm" type="email" name="your-mail" required>
+                        <p class="your-mail--text">Свяжемся с вами в течении 30 минут</p>
+                    </label>
+                    <label>
+                        <input class="input-btn" type="submit" value="Отправить">
+                    </label>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="popup-more" style="display: none;" id="hidden-content--more">
+        <p>В силу различных причин в статусе должника может оказаться юридическое лицо в процессе осуществления
+            предпринимательской деятельности или физическое лицо в ходе повседневной жизни. Вопрос в том, какую тактику
+            поведения в таких обстоятельствах выбирает должник.Очень часто в вопросах взыскания и урегулирования
+            задолженности требуется профессиональная помощь юриста.</p>
+        <p>Юридическая фирма Fedorov, Danilov & partners оказывает юридическое содействие и предоставляет правовую
+            помощь физическим и юридическим лицам по вопросам взыскания задолженности.</p>
+        <p>Грамотные специалисты нашей юридической фирмы внимательно ознакомятсясо всеми документами и материалами по
+            конкретной спорной ситуации, проанализируют обстоятельства возникновения задолженности. В последствии чего -
+            будет выработана наиболее эффективная стратегия взыскания денежных средств.</p>
+        <p>Специалисты нашей юридической фирмы подготовят и оформят надлежащим образом требуемые документы на стадии
+            урегулирования спора в досудебном порядке, обеспечат направление в адрес должника досудебной претензии и
+            необходимых приложений к ней. Если того требует ситуация, наши юристы принимают участие в переговорном
+            процессе с должником, проводят с ним разъяснительную работу.
+            На стадии взыскания задолженности в судебном порядке наша юридическая фирма оказывает весь комплекс
+            необходимых юридических услуг в рамках представления интересов наших клиентов (и физических, и юридических
+            лиц) в судах общей юрисдикции и в арбитражном суде города Москвы.</p>
+        <p>Наши юристы составят все необходимые процессуальные документы для судебного разбирательства (исковое
+            заявление, заявление об обеспечении иска,иные документы), а также будут от имени клиента принимать участие в
+            судебных заседаниях, знакомиться с материалами судебного дела и совершать все требуемые процессуальные
+            действия на всех этапах судебного разбирательства.</p>
+        <p>После вынесения судом решения об удовлетворении требований взыскателя наша юридическая фирма также оказывает
+            услуги по сопровождению исполнительного производства и взаимодействую от имени клиента со службой судебных
+            приставов.</p>
+        <p>Кроме того, мы оказываем правовые услуги и должникам – в тех случаях, когда должник готов погашать имеющуюся
+            задолженность, но имеется необходимость надлежащим образом оформить договоренности между взыскателем и
+            должником об особом порядке урегулирования долга, например, корректно зафиксировать измененный график
+            погашения задолженности.</p>
+    </section>
+    <section class="popup-resolution" style="display: none;" id="hidden-content--resolution1">
+        <div class="popup-resolution--wrapper">
+            <p>Направление письменной претензии с предложением вернуть долг
+                без суда, проведение телефонных переговоров и, если возможно, встреч
+                с должником или руководством компании-должника с целью обсудить вопрос выплаты долга.</p>
+            <span>Досудебная работа (медиация)</span>
+        </div>
+    </section>
+    <section class="popup-resolution" style="display: none;" id="hidden-content--resolution2">
+        <div class="popup-resolution--wrapper">
+            <p>Подача иска, инициирование судебного разбирательства и представление Ваших интересов в арбитражных судах и судах общей юрисдикции всех инстанций, в том числе Высшем Арбитражном Суде и Верховном Суде.</p>
+            <span>Судебная работа</span>
+        </div>
+    </section>
+    <section class="popup-resolution" style="display: none;" id="hidden-content--resolution3">
+        <div class="popup-resolution--wrapper">
+            <p>Оказывание помощи в организации исполнения судебных решений, взаимодействие со службой судебных приставов на всех этапах исполнения. Осуществление поиска имущества должника во всех регионах России и за рубежом.</p>
+            <span>Исполнение решения суда</span>
+        </div>
+    </section>
+
+    <footer class="footer-wrapper">
+        <a class="footer-phone" href="tel:+7 (495) 215-57-24">+7 (495) 215-57-24</a>
+        <span>Москва, ул. Балтийская 14, оф. 601</span>
+        <a class="footer-mail" href="#">info@fpilegal.com</a>
+        <div class="footer-mobail--content">
+            <a class="footer-phone-mob" href="tel:+7 (495) 215-57-24">+7 (495) 215-57-24</a>
+            <a class="footer-mail-mob" href="#">info@fpilegal.com</a>
+        </div>
+        <a class="footer-logo" href="#"><img src="img/logo.svg" alt="logo"></a>
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="libs/slick/slick.min.js"></script>
+    <script src="libs/scrollspy/scrollspy.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="libs/maskphone/jquery.maskedinput.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

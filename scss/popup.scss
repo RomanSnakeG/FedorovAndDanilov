@@ -1,0 +1,200 @@
+.popup-conteiner {
+    width: 340px;
+    height: 300px;
+    background: #FFFFFF;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.popup-block--btn {
+    width: 100%;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.popup-phone--btn, .popup-email--btn, .popup-phone--btn__icon, .popup-email--btn__icon {
+    border: none;
+    padding: 0 21px 5px;
+    background: initial;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #76324D;
+    border-bottom: 1px solid #76324D;
+    opacity: 0.3;
+    cursor: pointer;
+}
+.active-btn {
+    opacity: 1;
+}
+.popup-block--btn {
+    margin-bottom: 20px;
+}
+.popup-phone {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #262424;
+    
+    input {
+        border: 1px solid #EFEFEF;
+        width: 360px;
+        height: 40px;
+    }
+    .your-name, .your-phone, .your-phone--text {
+        margin: 10px 0;
+    }
+    .your-phone {
+        margin-top: 20px !important;
+    }
+    .your-phone--text {
+        margin-bottom: 30px !important;
+    }
+}
+.popup-mail {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #262424;
+
+    input {
+        border: 1px solid #EFEFEF;
+        width: 360px;
+        height: 40px;
+    }
+    .your-mail, .your-mail--text, .your-name, .your-message {
+        margin: 10px 0;
+    }
+    .your-mail {
+        margin-top: 20px !important;
+    }
+    .your-mail--text {
+        margin-bottom: 30px !important;
+    }
+}
+.your-message {
+    margin-top: 20px !important;
+}
+textarea {
+    border: 1px solid #EFEFEF;
+    width: 360px;
+}
+.input-btn {
+    background: #76324D;
+    border-radius: 2px;
+    padding: 12px 20px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.popup-phone--btn__icon, .popup-email--btn__icon {
+    display: none;
+    width: 100%;
+}
+.popup-more {
+    width: 720px;
+    height: 600px;
+    overflow-x: hidden;
+}
+
+section#hidden-content--more p {
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.popup-resolution--wrapper {
+    width: 790px;
+    border: 1px solid #EFEFEF;
+    box-sizing: border-box;
+    padding: 50px;
+    p {
+        font-family: 'Montserrat';
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #262424;
+        margin-bottom: 40px;
+        text-align: justify;
+    }
+    span {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #262424;
+
+        b {
+            color: #76324D;
+        }
+
+    }
+}
+
+@media (max-width: 830px) {
+    .popup-more {
+        width: auto;
+    }
+    .popup-resolution--wrapper {
+        width: auto !important;
+        padding: 30px !important;
+    }
+}
+@media (max-width: 450px) {
+    .popup-conteiner {
+        width: auto;
+    }
+    .popup-phone--btn__icon, .popup-email--btn__icon {
+        display: block;
+    }
+    .popup-phone--btn, .popup-email--btn {
+        display: none;
+    }
+    .popup-phone, .popup-mail, textarea {
+        font-size: 12px;
+        input, textarea {
+            width: 100%;
+        }
+        
+    }
+    .fancybox-content {
+        padding: 30px;
+    }
+    section#hidden-content--more p {
+        margin-top: 20px;
+        margin-right: 15px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 375px) {
+    .popup-resolution--wrapper {
+        border: none;
+        padding: 0px !important;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+
+        p {
+            margin-bottom: 0;
+        }
+        span {
+            margin-bottom: 20px;
+        }
+    }
+}

@@ -1,0 +1,120 @@
+.partners-wrapper {
+    width: 1293px;
+    margin: 0 auto;
+    padding: 100px 0 100px;
+}
+.partners-wrapper--page2 {
+    padding-top: 0px;
+}
+.partners-block {
+    display: -webkit-flex !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.partners-title {
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 44px;
+
+    b {
+        font-weight: normal;
+        color: #76324D;
+    }
+}
+.partners-block img {
+    filter: grayscale(100%);
+    cursor: pointer;
+    height: 55px;
+
+    &:hover {
+        filter: grayscale(0%);
+    }
+}
+.partners-block--slider {
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+
+    .slick-prev {
+        left: 0px;
+        z-index: 9;
+        &:focus:before {
+            opacity: .75 !important;
+        }
+        &:hover:before {
+            opacity: 1 !important;
+        }
+    }
+    .slick-next {
+        right: 12px;
+        &:focus:before {
+            opacity: .75 !important;
+        }
+        &:hover:before {
+            opacity: 1 !important;
+        }
+    }
+    .slick-list {
+        width: 100%;
+    }
+    .slick-dots li.slick-active button:before {
+        color: #98657a;
+        opacity: 1;
+        font-size: 8px;
+        line-height: 22px;
+    }
+    .slick-dots li {
+        margin: 0;
+    }
+    .slick-dots {
+        bottom: -45px;
+    }
+}
+@media (max-width: 1366px) {
+    .partners-wrapper {
+        width: auto;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+@media (max-width: 1200px) {
+    .partners-wrapper {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+@media (max-width: 767px) {
+    .partners-title {
+        font-size: 26px;
+        line-height: 34px;
+    }
+}
+@media (max-width: 550px) {
+    .partners-wrapper {
+        padding: 40px 0 50px;
+    }
+}
+@media (max-width: 450px) {
+    
+    .partners-title {
+        font-size: 24px;
+    }
+    .partners-block.slick-slide {
+        margin: 0 10px;
+    }
+}
+@media (max-width: 375px) {
+    .partners-wrapper {
+        padding: 5px 0 50px;
+    }
+}
